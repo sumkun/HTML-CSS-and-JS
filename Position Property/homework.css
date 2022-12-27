@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 65px;
+    background-color: pink;
+}
+
+main{
+    width: 50%;
+    position: relative;
+    left: 20%;
+    border: 1px solid black;
+}
+
+main p{
+  
+    padding: 20px 20px;
+}
+
+div.right-container{
+    position: absolute;
+    height: 600px;
+    width: 200px;
+    background-color: pink;
+    top: 20%;
+    right: 0;
+}
+
+
+.contact{
+    position: fixed;
+    bottom: 50;
+    right: 50;
+    height: 100;
+    width: 100;
+    background-color: red;
+    border-radius: 50px;
+}
+
