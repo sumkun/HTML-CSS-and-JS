@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    border: 1px solid red;
+    height: 50vh;
+    display: flex;
+    gap: 10px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 1px solid green;
+    flex: 0 0 200px;
+    height: 100px;
+}
+
+#box1{
+    flex-grow: 1;
+}
+
+#box2{
+    flex-grow: 2;
+}
