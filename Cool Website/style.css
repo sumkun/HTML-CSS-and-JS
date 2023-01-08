@@ -1,4 +1,23 @@
-hr{
-    border-style: dotted;
-    width: 10%;
+body{
+    background-color: #F7F5EB;
 }
+
+hr{
+    height: .5px;
+    width: 100%;
+    border-style: none;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+
+label{
+    display: block;
+    padding: 5px;
+}
+input[type="submit"]{
+    display: block;
+    margin-top: 5px;
+}
+
